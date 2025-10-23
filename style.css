@@ -21,12 +21,40 @@ body{
 
 /* BASIC STYLING */
 
+a{
+    font-size: 1.1 rem;
+    text-decoration: none;
+    color: var(--lead);
+}
 
+.flex {
+    display: flex;
+    align-items: center;
+}
 
+li{
+    list-style: none;
+}
 
+.between{
+    justify-content: space-between;
+}
 
+.gap-2 {
+    gap: 2rem;
+}
 
+.gap-3 {
+    gap: 3rem;
+}
 
+.wrapper{
+    max-width: 1400px;
+    /* background-color: gold; */
+    margin: auto;
+    padding-inline: 1.5rem;
+    
+}
 
 
 
